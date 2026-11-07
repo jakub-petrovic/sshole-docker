@@ -1,7 +1,9 @@
 # Vulnerable vm in docker for testing CVE-2026-123158 (\*sshole)
-Requirements: docker, docker-compose
+Requirements: git, docker, docker-compose
 First run:
 ```bash
+git clone https://github.com/jakub-petrovic/sshole-docker.git
+cd sshole-docker
 docker compose up -d --build
 ```
 Other runs:
