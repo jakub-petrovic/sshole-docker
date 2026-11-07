@@ -1,0 +1,8 @@
+services:
+  sshole:
+    build: .
+    container_name: sshole-vulnerable-vm
+    ports:
+      - "127.0.0.1:2222:22"
+    restart: unless-stopped
+
