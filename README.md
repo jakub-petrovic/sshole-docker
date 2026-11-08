@@ -1,4 +1,4 @@
-# Vulnerable vm in docker for testing CVE-2026-123158 (\*sshole)
+# Vulnerable docker container for testing CVE-2026-123158 (\*sshole)
 Requirements: git, docker, docker-compose
 First run:
 ```bash
@@ -11,7 +11,7 @@ Other runs:
 docker compose up -d
 ```
 
-# How to exploit this vm?
+# How to exploit this container?
 Its super easy :3
 Just start ssh, first password is wrong, second one has to be longer then 256 character.
 ```bash
